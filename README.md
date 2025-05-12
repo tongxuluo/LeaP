@@ -83,13 +83,13 @@ bash scripts/moa_7B.sh
 bash scripts/leap_7B.sh
 ```
 
-#### LeaP-T series
+#### LeaP-T Series
 This script uses our fine-tuned LeaP-T models, which are already adapted for the LeaP framework. Ensure you have downloaded the LeaP-T model weights (available on Hugging Face) and updated the script with the correct model path.
 ```
 bash scripts/leap_t_7B.sh
 ```
 
-#### LeaP in single generation
+#### LeaP in Single Generation
 ```
 bash scripts/leap_s_7B.sh
 ```
