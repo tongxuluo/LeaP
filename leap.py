@@ -19,7 +19,7 @@ def main(
     tasks = "aime",
     max_turns: int = 6,
     peer_top_k: int = -1,
-    router: str = "dissimilar", # ["dissimilar", "similar", "random", "hybrid"]
+    router: str = "dispersed", # ["dispersed", "similar", "random", "hybrid"]
     top_k: int = 40,
     temperature: float = 0.6,
     top_p: float = 0.95,

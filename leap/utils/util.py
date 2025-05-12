@@ -59,7 +59,7 @@ def all_gather(prompts):
     return prompts
 
 
-def get_topk_all_gather(top_k=2, router="dissimilar"):
+def get_topk_all_gather(top_k=2, router="dispersed"):
     
     def topk_all_gather(prompts):
         if len(prompts) > 1:
@@ -69,12 +69,12 @@ def get_topk_all_gather(top_k=2, router="dissimilar"):
             for idx, current_summary in enumerate(summaries):
                 other_indices = [jdx for jdx in range(len(summaries)) if jdx != idx]
                 
-                if router == "dissimilar":
+                if router == "dispersed":
                     similarities = [(Levenshtein.ratio(current_summary, summaries[jdx]), jdx) for jdx in other_indices]
                     similarities.sort(key=lambda x: x[0])  # ascending
                     selected_indices = [j for _, j in similarities[:top_k]]
 
-                elif router == "similar":
+                elif router == "clustered":
                     similarities = [(Levenshtein.ratio(current_summary, summaries[jdx]), jdx) for jdx in other_indices]
                     similarities.sort(key=lambda x: -x[0])  # descending
                     selected_indices = [j for _, j in similarities[:top_k]]

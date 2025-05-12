@@ -6,7 +6,7 @@ NUM_MIX=${3:-4}
 N=${4:-8}
 PEER_TOP_K=${5:-2}
 COM=${6:-1}
-ROUTER=${7:-"dissimilar"}
+ROUTER=${7:-"dispersed"}
 TASKS=${8:-"aime"}
 BS=${9:-16}
 

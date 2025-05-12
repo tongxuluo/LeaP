@@ -14,7 +14,7 @@ from .prompts import GPQA_temp, leap_prefix_MATH, leap_prefix_GPQA, leap_subfix_
 
 
 class LeaP:
-    def __init__(self, max_turns: int, top_k = None, router: str = "dissimilar", part: list = [], cot_prompt=False, micro_batch_size=16):
+    def __init__(self, max_turns: int, top_k = None, router: str = "dispersed", part: list = [], cot_prompt=False, micro_batch_size=16):
         self.max_turns = max_turns
         self.top_k = top_k
         self.all_gather = all_gather if top_k is None else get_topk_all_gather(top_k, router)

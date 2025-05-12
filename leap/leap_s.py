@@ -10,7 +10,7 @@ from .leap import LeaP
 
 
 class LeaPS(LeaP):
-    def __init__(self, num_mix: int = 8, top_k = None, router: str = "dissimilar", micro_batch_size=16):
+    def __init__(self, num_mix: int = 8, top_k = None, router: str = "dispersed", micro_batch_size=16):
         self.num_mix = num_mix
         self.top_k = top_k
         self.micro_batch_size = micro_batch_size

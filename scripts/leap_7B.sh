@@ -4,7 +4,7 @@ MAX_TURNS=${1:-5}
 MAX_TOKENS=${2:-2048}
 N=${3:-4}
 PEER_TOP_K=${4:-2}
-ROUTER=${5:-"dissimilar"}
+ROUTER=${5:-"dispersed"}
 TASKS=${6:-"aime"}
 BS=${7:-16}
 
