@@ -19,7 +19,7 @@ Official implementation for the paper **"Learning from Peers in Reasoning Models
 <p align="center">
 <a href="https://learning-from-peers.github.io/" target="_blank">🌐 Project Page</a> •
 <a href="https://github.com/tongxuluo/LeaP" target="_blank">💻 Code</a> •
-<a href="https://arxiv.org/abs/2405.15319" target="_blank">📃 Paper</a> •
+<a href="https://arxiv.org/abs/2505.07787" target="_blank">📃 Paper</a> •
 <a href="https://huggingface.co/Learning-from-Peers" target="_blank">🤗 Datasets & Models</a>
 </p>
 
