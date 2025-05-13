@@ -102,4 +102,10 @@ bash scripts/leap_s_7B.sh
 ## Citation
 If you find our paper inspiring and have utilized it in your work, please cite our paper.
 ```
+@article{luo2025learning,
+  title={Learning from Peers in Reasoning Models},
+  author={Luo, Tongxu and Du, Wenyu and Bi, Jiaxi and Chung, Stephen and Tang, Zhengyang and Yang, Hao and Zhang, Min and Wang, Benyou},
+  journal={arXiv preprint arXiv:2505.07787},
+  year={2025}
+}
 ```
